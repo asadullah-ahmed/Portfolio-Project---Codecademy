@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  height: 1000px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: aqua;
+}
+h2,
+h3 {
+  margin-bottom: 10px;
+}
+article,
+li {
+  line-height: 35px;
+}
+/* Styling header */
+header {
+  background-color: aqua;
+  color: rgb(0, 0, 33);
+  display: table-column;
+  align-items: center;
+  height: 95px;
+  position: absolute;
+  width: 100%;
+}
+
+.bismillah {
+  background-color: rgb(0, 0, 33);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.left {
+  font-size: 1.5rem;
+  max-width: 49%;
+  font-weight: bold;
+}
+
+/* Styling nav bar li items */
+.navbar {
+  text-align: center;
+}
+
+/* Style the list items */
+.navbar-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Style the links */
+.navbar a {
+  text-decoration: none;
+  color: rgb(0, 0, 33);
+  font-weight: bold;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+  color: #ff9900;
+  font-size: 1.1rem;
+  transition: ease-in-out 0.5s;
+}
+
+.main {
+  padding-top: 20vh;
+}
+
+.one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 460px;
+}
+
+.one .left {
+  width: 40%;
+  font-size: 2.5rem;
+  height: 450px;
+}
+
+.one .passionate {
+  margin-bottom: 20px;
+}
+
+.one .right {
+  width: 40%;
+}
+
+.one .right img {
+  width: 120%;
+  margin-top: 60px;
+  margin-left: -30px;
+}
+.element {
+  color: aqua;
+}
+
+hr {
+  border: 0;
+  background: aqua;
+  height: 1.2px;
+  margin: 40px 84px 84px 84px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.my-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+}
+
+.connect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 50px;
+  cursor: pointer;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Project - Codecademy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="bismillah">بسم الله الرحمن الرحيم</div>
+      <div class="navigation">
+        <h1 class="left">Asadullah's Portfolio</h1>
+
+        <div class="right">
+          <nav class="navbar">
+            <ul class="navbar-ul">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="one">
+        <div class="left">
+          <div>
+            <p>
+              Hi, I am
+              <span class="element">Asadullah Ahmed </span><br />
+              <div class="passionate">and I am a <span>passionate</span></div>
+
+            </p>
+
+            <!-- Element to contain animated typing -->
+            <span id="element" class="element"></span>
+          </div>
+        </div>
+        <div class="right">
+          <img src="bg.png" alt="Web development working in a picture." />
+        </div>
+      </section>
+      <hr />
+
+      <section id="about">
+        <h2 class="about">About Me</h2>
+        <article>
+          Hello, I'm Asadullah Ahmed, a passionate front-end web developer with
+          a keen eye for creating visually appealing and user-friendly websites.
+          I'm dedicated to crafting seamless and responsive user interfaces that
+          provide an exceptional user experience.
+        </article>
+        <br />
+        <h3>My Journey</h3>
+        <article>
+          My journey in web development began when CORONA hit the world in 2020,
+          and I've been hooked ever since. Over the years, I've honed my skills
+          in HTML, CSS, and JavaScript, allowing me to turn creative ideas into
+          functional and captivating websites. I'm a firm believer in the power
+          of the web to connect, inform, and inspire, and I'm committed to
+          contributing to that vision.
+        </article>
+        <br />
+        <h3>What I Do:</h3>
+        <article>
+          <li>
+            <strong>Responsive Designe: </strong> specialize in crafting
+            websites that look and work beautifully on all devices, ensuring an
+            excellent experience for every user.
+          </li>
+          <li>
+            <strong>UI/UX Design: </strong>I'm enthusiastic about creating
+            intuitive and visually appealing interfaces, focusing on
+            user-centered design principles.
+          </li>
+          <li>
+            <strong>Front-End Frameworks: </strong> I'm proficient in popular
+            front-end frameworks like React, Angular, and Vue.js, using them to
+            build dynamic web applications.
+          </li>
+          <li>
+            <strong>Performance Optimiser: </strong>I optimize websites for
+            speed and performance, believing that fast-loading pages are crucial
+            for user engagement and SEO.
+          </li>
+          <li>
+            <strong>Cross-Browser Compatibility</strong> I ensure that my
+            websites are compatible with various browsers to reach the broadest
+            audience.
+          </li>
+        </article>
+        <br />
+        <h2>My Approach</h2>
+        <article>
+          My approach to web development is rooted in continuous learning. The
+          fast-paced nature of the industry means there's always something new
+          to explore, and I'm excited to stay up to date with the latest trends
+          and technologies. I'm also a strong advocate for clean and
+          maintainable code, making it easier for clients and collaborators to
+          understand and extend the work I deliver.
+        </article>
+        <br />
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="cards">
+          <div class="twitter-clone">Twitter login page clone</div>
+          <br />
+
+          <div class="youtube-clone">Youtube Clone Page</div>
+          <br />
+
+          <div class="flipcart-clone">Flipcart Clone Page</div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <div class="my-skills">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-figma"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-chrome"></i>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <article>
+          I'm always open to exciting new projects and collaborations. Whether
+          you're a fellow developer, a business owner looking to establish an
+          online presence, or anyone in need of a front-end web solution, I'd
+          love to connect and discuss how we can work together. Feel free to
+          reach out to me.
+          <div class="connect">
+            <a
+              href="https://www.linkedin.com/in/asadullah-ahmed-91442a100/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+
+            <a href="https://twitter.com/Asadullah2023" target="_blank"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+
+            <a href="https://github.com/asadullah-ahmed" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["UX/UI Designer", "Web Developer", "Front-End Developer"],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/0aea365343.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
